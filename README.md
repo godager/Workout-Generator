@@ -6,9 +6,10 @@ Demo without database will be uploaded soon.
 
 # Screenshots of the user interface
 <img src="resources/images/login.png" width=400>
-<img src="resources/images/register.png" width=550>
-<img src="resources/images/welcome.png" width=650>
-<img src="resources/images/save.png" width=400>
+<img src="resources/images/register.png" width=500>
+<img src="resources/images/welcomeW.png" width=600>
+<img src="resources/images/dayW.png" width=600>
+<img src="resources/images/saveW.png" width=400>
 <img src="resources/images/txt.png" width=400>
 
 
