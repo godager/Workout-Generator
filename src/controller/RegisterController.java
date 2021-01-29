@@ -107,7 +107,8 @@ public class RegisterController implements Initializable {
         //Load the register window
         FXMLLoader loader = new FXMLLoader();
         try {
-            loader.setLocation(new URL("file:///C://Users//sindr/Documents/Hobby projects/Code PT/src/view/register.fxml"));
+            loader.setLocation(new URL(
+                    utils.URL.formattedURL(this.getClass().getResource("/view/register.fxml").toExternalForm())));
         } catch (MalformedURLException ex) {
             ex.printStackTrace();
         }
@@ -124,7 +125,7 @@ public class RegisterController implements Initializable {
         scene.getStylesheets().add(css);
         Stage regStage = new Stage();
         regStage.setScene(scene);
-        regStage.setTitle("SWEAT GAINS - Personal Trainer Software  Version 1.0");
+        regStage.setTitle("Workout Generator - Personal Trainer Software  Version 1.0");
         regStage.setResizable(false);
         regStage.show();
     }

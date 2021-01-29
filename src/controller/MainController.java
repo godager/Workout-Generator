@@ -128,7 +128,8 @@ public class MainController {
         //Load the main window
         FXMLLoader loader = new FXMLLoader();
         try {
-            loader.setLocation(new URL("file:///C://Users//sindr/Documents/Hobby projects/Code PT/src/view/main.fxml"));
+            loader.setLocation(new URL(
+                    utils.URL.formattedURL(this.getClass().getResource("/view/main.fxml").toExternalForm())));
         } catch (MalformedURLException ex) {
             ex.printStackTrace();
         }
