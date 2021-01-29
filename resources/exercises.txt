@@ -1,0 +1,151 @@
+Name
+difficulty; default weight; equipment(first); goals; muscle(first); type
+description
+
+Squat
+7; 20.0; rack, bar, plates; muscleGrowth, maxStrength; quadriceps, glutes, hamstrings; compound
+Ass to the grass, bro
+
+KneeLifts
+1;  0.0; none; weightLoss, xSkiing; quadriceps; bodyWeight
+Lift knee up alternating left and right
+
+Step up body weight
+3; 0.0; stepBox; weightLoss, xSkiing; quadriceps, glutes, hamstrings; bodyWeight
+Step up on the box using alternating legs
+
+Walking lunges body weight
+5; 0.0; none; weightLoss, xSkiing, maxStrength; quadriceps, glutes, hamstrings; bodyWeight
+lunge walking
+
+One-leg squat body weight
+7; 0.0; pole; xSkiing, maxStrength; quadriceps, glutes, hamstrings; bodyWeight
+squat to the ground on one leg. Grap pole and squat back up.
+
+Deadlift
+7; 40.0; bar, plates; muscleGrowth, maxStrength; glutes, hamstrings, quadriceps, back; compound
+Pull bar up from the ground
+
+Hip thrust
+5; 40.0; bench, bar, plates; muscleGrowth, maxStrength; glutes, hamstrings; compound
+thrust
+
+Kickbacks body weight
+3; 0.0; none; xSkiing, weightLoss; glutes; bodyWeight
+Lean with hands on a wall and kick one leg back
+
+Nordic hamstrings
+4; 0.0; none; muscleGrowth, maxStrength, xSkiing; hamstrings; bodyWeight
+hamstring curl
+
+Leg curl
+1; 15.0; legCurl; muscleGrowth, maxStrength; hamstrings; isolation
+curl legs
+
+Leg curl body weight
+2; 0.0; mat; weightLoss; hamstrings; bodyWeight
+Lying leg curls
+
+Back extension body weight
+4; 0.0; backExtension; xSkiing, weightLoss; hamstrings, glutes; bodyWeight
+extend back
+
+Bench
+5; 30.0; benchPressRack, bar, plates; muscleGrowth, maxStrength; chest, shoulders, triceps; compound
+Lie on your back on the bench. Lower bar to your chest and push back up
+
+Push ups body weight
+4; 0.0; none; muscleGrowth, weightLoss, xSkiing; chest, triceps, shoulders; bodyWeight
+push up
+
+Knee push ups
+3; 0.0; mat; weightLoss, xSkiing; chest, triceps, shoulders; bodyWeight
+push up
+
+Dips body weight
+5; 0.0; dipsBar; muscleGrowth, xSkiing; chest, triceps, shoulders; bodyWeight
+extend arms
+
+Bench dips body weight
+3; 0.0; bench; weightLoss, xSkiing; triceps, chest, shoulders; bodyWeight
+extend arms
+
+Biceps curl
+2; 4.0; dumbells; muscleGrowth; biceps; isolation
+curl
+
+Triceps push down
+2; 12.5; cableMachine; muscleGrowth, xSkiing; triceps; isolation
+push down
+
+JM-press
+6; 10; bar, bench; muscleGrowth, maxStrength; triceps; isolation
+jm-press
+
+Sit-ups
+3; 0.0; none; muscleGrowth, weightLoss, xSkiing; abs; bodyWeight
+sit up
+
+Roll out wheel
+4; 0.0; rolloutWheel; xSkiing, maxStrength, muscleGrowth; abs; isolation
+roll out
+
+Plank
+3; 0.0; mat; xSkiing; abs; bodyWeight
+plank
+
+Bicycle
+4; 0.0; mat; xSkiing, weightLoss; abs; bodyWeight
+Cycle with legs lying on your back
+
+Pikes gymBall
+7; 0.0; gymBall; xSkiing, maxStrength, muscleGrowth; abs; isolation
+Pikes with gymBall
+
+Leg raise
+3; 0.0; mat; weightLoss, xSkiing; abs; bodyWeight
+Raise your legs extended lying on your back; isolation
+
+Pull down
+3; 20.0; pulldownMachine; muscleGrowth, maxStrength, xSkiing; lats, back; compound
+pull down
+
+Hyperextensions
+2; 0.0; mat; weightLoss, xSkiing, maxStrength; lats, back; bodyWeight
+hyper extend lying facing down
+
+Cable row
+4; 15.0; cableRow; muscleGrowth, maxStrength; back, lats; compound
+row
+
+Band row
+3; 0.0; band; weightLoss, maxStrength, muscleGrowth; back, lats; compound
+row
+
+Straight arm pull down
+4; 10.0; cableMachine; muscleGrowth, xSkiing; back, lats; isolation
+pull bar down
+
+Pullover
+6; 10.0; bar; muscleGrowth, xSkiing; lats, back, triceps; isolation
+pull over
+
+Shoulder press
+6; 4.0; dumbells; muscleGrowth, maxStrength; shoulders; compound
+press above head
+
+Lateral raise
+2; 1.0; dumbells; muscleGrowth; shoulders; isolation
+With arms straight, raise dumbells up to each side
+
+Lateral raise body weight
+1; 0.0; none; weightLoss, muscleGrowth, maxStrength; shoulders; bodyWeight
+Lateral raise
+
+Military press
+7; 20.0; bar, plates; muscleGrowth, maxStrength; shoulders, triceps; compound
+Push bar above head
+
+Face pull
+4; 10.0; cableMachine; muscleGrowth, xSkiing; shoulders, back; isolation
+Pull cable towards your face

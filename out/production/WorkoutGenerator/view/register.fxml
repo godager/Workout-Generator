@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="ap" maxHeight="604.0" maxWidth="600.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="604.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.RegisterController">
+   <children>
+      <ImageView fitHeight="643.0" fitWidth="635.0" layoutX="-17.0" layoutY="-25.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../resources/images/Dark-Blue-1920x1080.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="name" layoutX="235.0" layoutY="81.0" />
+      <Label layoutX="191.0" layoutY="85.0" text="Name" textFill="WHITE" />
+      <Text id="nameError" fx:id="nameError" fill="#ff7d7d" layoutX="391.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <TextField fx:id="username" layoutX="236.0" layoutY="126.0" />
+      <Label layoutX="170.0" layoutY="130.0" text="Username" textFill="WHITE" />
+      <Label layoutX="418.0" layoutY="278.0" text="Experiencend" textFill="WHITE" />
+      <Text fill="WHITE" layoutX="254.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Register">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Text>
+      <Slider fx:id="slider" blockIncrement="1.0" cache="true" layoutX="216.0" layoutY="248.0" majorTickUnit="1.0" max="10.0" min="1.0" minorTickCount="0" prefHeight="59.0" prefWidth="196.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" style="-fx-block-increment: 1;" value="5.0">
+         <effect>
+            <Bloom />
+         </effect>
+      </Slider>
+      <Label layoutX="161.0" layoutY="278.0" text="Beginner" textFill="WHITE" />
+      <Label layoutX="258.0" layoutY="231.0" text="Your experience level" textFill="WHITE" underline="true" />
+      <Label layoutX="170.0" layoutY="171.0" text="Password" textFill="WHITE" />
+      <Text id="usernameError" fx:id="usernameError" fill="#ff7d7d" layoutX="391.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Label layoutX="285.0" layoutY="318.0" text="Your Goal" textFill="WHITE" underline="true" />
+      <RadioButton fx:id="muscleGrowth" layoutX="255.0" layoutY="347.0" mnemonicParsing="false" selected="true" text="Muscle growth" textFill="WHITE">
+         <font>
+            <Font size="11.0" />
+         </font>
+         <toggleGroup>
+            <ToggleGroup fx:id="group" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="maxStrength" layoutX="255.0" layoutY="372.0" mnemonicParsing="false" text="Max strength" textFill="WHITE" toggleGroup="$group">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="weightLoss" layoutX="255.0" layoutY="396.0" mnemonicParsing="false" text="Weight loss" textFill="WHITE" toggleGroup="$group">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </RadioButton>
+      <RadioButton layoutX="255.0" layoutY="420.0" mnemonicParsing="false" text="Cross country skiing" textFill="WHITE" toggleGroup="$group" fx:id="xSkiing">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </RadioButton>
+      <Label layoutX="235.0" layoutY="472.0" text="Workout sessions per week" textFill="WHITE" underline="true" />
+      <PasswordField fx:id="password" layoutX="235.0" layoutY="167.0" />
+      <Text id="passwordError" fx:id="passwordError" fill="#ff7d7d" layoutX="391.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(Minimum 8 characters)" />
+      <Spinner fx:id="spinner" initialValue="1" layoutX="233.0" layoutY="499.0" max="7" min="1" nodeOrientation="RIGHT_TO_LEFT" opacity="0.85">
+         <effect>
+            <Glow />
+         </effect>
+      </Spinner>
+      <Button layoutX="282.0" layoutY="565.0" mnemonicParsing="false" onAction="#letsGo" style="-fx-background-color: transparent;" styleClass="button:hover" text="Let's go!" textFill="#fffdfd" underline="true">
+         <effect>
+            <Glow />
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>

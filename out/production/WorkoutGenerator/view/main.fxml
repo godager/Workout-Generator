@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="mainStage" maxHeight="604.0" maxWidth="801.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="598.0" prefWidth="801.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainController">
+      <children>
+          <ImageView fitHeight="632.0" fitWidth="833.0" layoutX="-19.0" layoutY="-20.0" pickOnBounds="true" AnchorPane.bottomAnchor="-14.0" AnchorPane.leftAnchor="-19.0" AnchorPane.rightAnchor="-13.0" AnchorPane.topAnchor="-20.0">
+              <image>
+                  <Image url="@../../resources/images/Dark-Blue-1920x1080.jpg" />
+              </image>
+          </ImageView>
+          <Button id="routineButton" fx:id="routineButton" layoutX="260.0" layoutY="124.0" mnemonicParsing="false" onAction="#generateRoutine" prefHeight="33.0" prefWidth="271.0" style="-fx-background-color: green;" text="GENERATE NEW WORKOUT ROUTINE" textFill="WHITE">
+              <font>
+                  <Font name="System Bold" size="14.0" />
+              </font>
+          </Button>
+          <Text fx:id="welcome" fill="WHITE" layoutX="278.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WELCOME!">
+              <font>
+                  <Font size="48.0" />
+              </font>
+          </Text>
+          <Text fx:id="lets" fill="WHITE" layoutX="202.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Let's find you a workout routine customized to your profile">
+              <font>
+                  <Font size="15.0" />
+              </font>
+          </Text>
+          <Text id="routineText" fx:id="routineText" fill="WHITE" layoutX="150.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="700.0">
+              <font>
+                  <Font size="14.0" />
+              </font></Text>
+      <TableView layoutX="205.0" layoutY="209.0" prefHeight="334.0" prefWidth="389.0" visible="false">
+        <columns>
+          <TableColumn prefWidth="180.0" text="Exercise" />
+          <TableColumn prefWidth="60.0" text="Kg" />
+            <TableColumn prefWidth="90" text="Reps" />
+            <TableColumn prefWidth="60" text="Sets" />
+        </columns>
+      </TableView>
+      <Button id="prev" fx:id="prev" layoutX="202.0" layoutY="330.0" mnemonicParsing="false" onAction="#prev" style="-fx-background-color: black;" text="Previous" textFill="WHITE" visible="false" />
+      <Button id="next" fx:id="next" layoutX="583.0" layoutY="330.0" mnemonicParsing="false" onAction="#next" prefHeight="25.0" prefWidth="61.0" style="-fx-background-color: black;" text="Next" textFill="WHITE" visible="false" />
+      <Button id="openFile" fx:id="openFile" layoutX="192.0" layoutY="528.0" mnemonicParsing="false" onAction="#openWorkoutFile" style="-fx-background-color: transparent;" text="Download routine file" textFill="WHITE" visible="false">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <Separator fx:id="sep1" layoutX="202.0" layoutY="516.0" prefHeight="4.0" prefWidth="149.0" visible="false"/>
+      <Separator fx:id="sep2" layoutX="202.0" layoutY="567.0" prefHeight="4.0" prefWidth="149.0" visible="false"/>
+  </children>
+</AnchorPane>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="ap" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="372.0" prefWidth="574.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginController">
+   <children>
+      <ImageView fitHeight="394.0" fitWidth="610.0" layoutX="-15.0" layoutY="-9.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/images/login.jpg" />
+         </image>
+         <effect>
+            <ColorAdjust brightness="-0.79" contrast="-0.06" hue="0.25" saturation="-0.16" />
+         </effect>
+      </ImageView>
+      <Text fill="WHITE" layoutX="184.0" layoutY="98.0" strokeLineCap="BUTT" strokeType="INSIDE" strokeWidth="0.0" text="Welcome" textAlignment="CENTER" wrappingWidth="232.13665771484375">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="49.0" />
+         </font>
+         <effect>
+            <Glow level="0.45" />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="195.0" layoutY="159.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="195.0" layoutY="197.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <Text fx:id="error" fill="WHITE" layoutX="195.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <Line endX="128.5078125" layoutX="300.0" layoutY="164.0" startX="-104.66668701171875" stroke="WHITE" />
+      <Line endX="128.5078125" endY="1.0" layoutX="300.0" layoutY="201.0" startX="-105.0" startY="0.7685546875" stroke="WHITE" />
+      <TextField fx:id="username" layoutX="285.0" layoutY="136.0" onAction="#loginClick" opacity="50.0" style="-fx-background-color: transparent;">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <effect>
+            <ColorAdjust brightness="1.0" contrast="1.0" />
+         </effect></TextField>
+      <Button fx:id="login" layoutX="277.0" layoutY="222.0" mnemonicParsing="false" onAction="#loginClick" style="-fx-background-color: #003300;" styleClass="button:hover" text="Login" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="CLOSED_HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="register" layoutX="192.0" layoutY="287.0" mnemonicParsing="false" onAction="#registerClick" style="-fx-background-color: transparent;" styleClass="button:hover" text="I'm new ..." textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Line endX="-32.0" endY="0.7685546875" layoutX="308.0" layoutY="286.0" startX="-105.0" startY="0.7685546875" stroke="WHITE" />
+      <Line endX="-32.0" endY="0.7685546875" layoutX="308.0" layoutY="317.0" startX="-105.0" startY="0.7685546875" stroke="WHITE" />
+      <PasswordField fx:id="password" layoutX="280.0" layoutY="175.0" onAction="#loginClick" style="-fx-background-color: transparent;">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <effect>
+            <ColorAdjust brightness="1.0" contrast="1.0" />
+         </effect></PasswordField>
+   </children>
+</AnchorPane>
