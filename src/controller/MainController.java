@@ -139,7 +139,7 @@ public class MainController {
         scene.getStylesheets().add(css);
         curStage = new Stage();
         curStage.setScene(scene);
-        curStage.setTitle("SWEAT GAINS - Personal Trainer Software  Version 1.0");
+        curStage.setTitle("Workout Generator - Personal Trainer Software  Version 1.0");
         curStage.setResizable(false);
         curStage.show();
     }
