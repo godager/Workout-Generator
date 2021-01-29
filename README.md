@@ -5,11 +5,11 @@ To use the software you have to set up a postgresql database by running the sql 
 Demo without database will be uploaded soon.
 
 # Screenshots of the user interface
-<img="login.png">
-<img="register.png">
-<img="welcome.png">
-<img="save.png">
-<img="txt.png">
+<img src="login.png">
+<img src="register.png">
+<img src="welcome.png">
+<img src="save.png">
+<img src="txt.png">
 
 
 
