@@ -1,8 +1,11 @@
 # Workout-Generator
-Generates strength training workout routines based on user input. Users login information and exercises are stored in a local database.
-To use the software you have to set up a PostgreSQL database by running the SQL scripts from the directory "SQLCreate&InsertScripts".
+Executable jar file without database:
+[Download demo](WorkoutGeneratorDemo.jar)
 
-Demo without database will be uploaded soon.
+Generates strength training workout routines based on user input. User login information and exercises are stored in a local database.
+To use the software with database you have to set up a PostgreSQL database by running the SQL scripts from the directory "SQLCreate&InsertScripts".
+
+
 
 # Screenshots of the user interface
 <img src="resources/images/login.png" width=400>
